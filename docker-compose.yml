@@ -10,10 +10,6 @@ volumes:
 networks:
   replica-set:
     driver: bridge
-    ipam:
-      driver: default
-      config:
-        - subnet: 172.10.5.0/24
 
 services:
   mongo-keys:
